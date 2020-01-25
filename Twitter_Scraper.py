@@ -82,7 +82,7 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 api = tweepy.API(auth, wait_on_rate_limit=True,
                  wait_on_rate_limit_notify=True)
 
-queries = ['#nkcthi -filter:retweets']
+queries = ['yogyakarta -filter:retweets']
 search_results = search_tweets(queries=queries, max_date='01/20/2020', tweet_attributes=tweet_attributes)
 
 
